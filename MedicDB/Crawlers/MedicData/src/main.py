@@ -1,6 +1,7 @@
 import logging
 from http_reqs import GetDrugNamesAlphaWise as drugNameScraper
 from http_reqs import GetUrlsAndMaxPageNum as drugPageInfoScrapper
+import MedicDetailsScraper as medicDetailScraper
 import PyMongoOps as pymops
 
 # Set up logging to log messages to a file
@@ -11,11 +12,14 @@ logging.basicConfig(
     filemode='a'  # Append mode
 )
 
+global NOT_NEEDED_TO_EXECUTE
+NOT_NEEDED_TO_EXECUTE = False
+
 def main():
     try:
         logging.info("Script started.")
         
-        if False:
+        if NOT_NEEDED_TO_EXECUTE:
             logging.info("Fetching drug page info...")
             linkAndPageCountDict = drugPageInfoScrapper.populateDBWithMedicPageInfo()
             logging.info(f"Fetched {len(linkAndPageCountDict)} URLs with page counts.")
@@ -24,20 +28,26 @@ def main():
             pymops.insertUrlAndPageCount(linkAndPageCountDict)
             logging.info("Data insertion into MongoDB completed.")
                     
-        logging.info("Started fetching data from pages.")
-        
-        result_dict = pymops.getUrlAndPageCountFromDB()
-        
-        logging.info(f"Fetched {len(result_dict)} records from MongoDB.")
-        
-        logging.info(f"Started fetching data for every alphabet.")
-        
-        drugNameScraper.startScraping(result_dict)
+            logging.info("Started fetching data from pages.")
+            
+            result_dict = pymops.getUrlAndPageCountFromDB()
+            
+            logging.info(f"Fetched {len(result_dict)} records from MongoDB.")
+            
+            logging.info(f"Started fetching data for every alphabet.")
+            
+            drugNameScraper.startScraping(result_dict)
+            
+            logging.info(f"Started fetching data for every drug.")
+            medicDetailScraper.startScraping()                                                                                                                     
+            
+            logging.info(f"Started inserting unique urls.")
+            pymops.find_and_store_unique_urls()
+            
         
     except Exception as e:
         logging.error(f"An error occurred: {e}")
         raise
 
-# Run the main function
 if __name__ == "__main__":
     main()

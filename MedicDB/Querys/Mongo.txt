@@ -1,0 +1,12 @@
+{ 
+    $where: function() { 
+        return Object.keys(this).some(key => key.includes('alkof')); 
+    } 
+}
+
+db.collectionName.aggregate([
+    { $project: { fieldNames: { $objectToArray: "$$ROOT" } } },
+    { $unwind: "$fieldNames" },
+    { $group: { _id: "$fieldNames.k" } },
+    { $count: "uniqueKeys" }
+]);

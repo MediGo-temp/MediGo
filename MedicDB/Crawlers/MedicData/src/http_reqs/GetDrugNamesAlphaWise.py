@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(
     filename='D:/Medic/MediGo/ProgramLog.log',
     level=logging.INFO,  
-    format='GETDRUG %(asctime)s - %(levelname)s - %(message)s',  
+    format='GETDRUGNAME %(asctime)s - %(levelname)s - %(message)s',  
     filemode='a'
 )
 
