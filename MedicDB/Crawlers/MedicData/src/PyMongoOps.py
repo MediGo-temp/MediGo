@@ -111,3 +111,42 @@ def find_and_store_unique_urls():
         logging.info("Unique URLs have been successfully stored in 'OneMgUniqueUrls' collection.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
+        
+def insertUrlAndPageCountFor1MG(linkAndPageCountDict):
+    try:
+        collection = db['DrugsPageInfo1MG'] 
+        
+        logging.info("Starting to insert URL and page count data into MongoDB.")
+        
+        collection.insert_one(linkAndPageCountDict)
+                
+        logging.info(f"Inserted record {linkAndPageCountDict}")
+    except Exception as e:
+        logging.error(f"An error occurred: {e}") 
+        
+def get1MgPageLinks():
+    try:
+        collection = db['DrugsPageInfo1MG']
+
+        logging.info("Connected to MongoDB and starting to fetch drug names.")
+        cursor = collection.find({}, {"_id": 0, "url": 1, "pageCount": 2})
+
+        for record in cursor:
+            pageInfo = [record['url'].strip(),record['pageCount']] 
+            logging.info(f"Fetched pageInfo {pageInfo}")
+            yield pageInfo
+    except Exception as e:
+        logging.error(f"Error occurred while fetching drug names from MongoDB: {e}")
+        raise
+    
+def insertAllPageMedicFrom1MG(pageData1Mg):
+    try:
+        collection = db['Original1MgLinks'] 
+        
+        logging.info("Starting to insert URL and page count data into MongoDB.")
+        
+        collection.insert_many(pageData1Mg,bypass_document_validation = True)
+                
+        logging.info(f"Inserted record {pageData1Mg}")
+    except Exception as e:
+        logging.error(f"An error occurred: {e}") 

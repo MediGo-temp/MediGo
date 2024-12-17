@@ -3,6 +3,7 @@ from http_reqs import GetDrugNamesAlphaWise as drugNameScraper
 from http_reqs import GetUrlsAndMaxPageNum as drugPageInfoScrapper
 import MedicDetailsScraper as medicDetailScraper
 import PyMongoOps as pymops
+import OneMgDataScraper as oneMgDataScrapper
 
 # Set up logging to log messages to a file
 logging.basicConfig(
@@ -44,6 +45,11 @@ def main():
             logging.info(f"Started inserting unique urls.")
             pymops.find_and_store_unique_urls()
             
+            logging.info(f"Started Collecting page count from 1 MG")
+            oneMgDataScrapper.getEachAlphabetPageCount()
+
+        logging.info(f"Started Collecting 1Mg Medicines from page.")
+        oneMgDataScrapper.startInsertingRecordsFrom1Mg()
         
     except Exception as e:
         logging.error(f"An error occurred: {e}")

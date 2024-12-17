@@ -9,7 +9,7 @@ rem Wait for Notepad to open (adjust the time if necessary)
 timeout /t 2
 
 rem Trim the log file to the last 10,000 lines using PowerShell
-powershell -Command "Get-Content '%LOG_FILE%' | Select-Object -Last 10000 | Set-Content '%LOG_FILE%'"
+powershell -Command "Get-Content '%LOG_FILE%' | Select-Object -Last 1000 | Set-Content '%LOG_FILE%'"
 
 rem Close Notepad
 taskkill /f /im notepad.exe
