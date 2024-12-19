@@ -48,8 +48,11 @@ def main():
             logging.info(f"Started Collecting page count from 1 MG")
             oneMgDataScrapper.getEachAlphabetPageCount()
 
+            logging.info(f"Started Collecting 1Mg Medicines from page.")
+            oneMgDataScrapper.startInsertingRecordsFrom1Mg()
+            
         logging.info(f"Started Collecting 1Mg Medicines from page.")
-        oneMgDataScrapper.startInsertingRecordsFrom1Mg()
+        oneMgDataScrapper.startInsertingOneMgDrugDetail()
         
     except Exception as e:
         logging.error(f"An error occurred: {e}")

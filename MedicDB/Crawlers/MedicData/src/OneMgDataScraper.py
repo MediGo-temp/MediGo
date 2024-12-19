@@ -2,6 +2,7 @@ import urllib.parse
 import PyMongoOps as pymoops
 import http_reqs.GetEachAlphaPageCount1MG as getEachAlphaPageCount1MG
 import http_reqs.GetDrugListFrom1MgPages as getDrugListFrom1MgPages
+import http_reqs.GetDrugInfoFrom1Mg as getDrugInfoFrom1Mg
 import logging
 
 logging.basicConfig(
@@ -78,4 +79,22 @@ def insertAllMedicUrlFromPage(url, pageNum,alphabet):
         logging.error(f"Error fetching records from page {pageNum} with URL: {url}: {e}")
         return []
 
-pymoops.insertAllPageMedicFrom1MG(getDrugListFrom1MgPages.getAllMedicOnPage('https://www.1mg.com/drugs-all-medicines?label=z&page=321'))
+def startInsertingOneMgDrugDetail():
+    recordsArr = []
+    recordCount = 0
+    for drugLinkArr in pymoops.get1MgDrugLink():
+        drugLink = drugLinkArr[0]
+        drugName = drugLinkArr[1]
+        drugCodeName = drugLinkArr[2]
+        record = getDrugInfoFrom1Mg.getDrugData(drugLink,drugName,drugCodeName)
+        recordsArr.append(record)
+        
+        if recordCount == 100:
+            pymoops.insertOneMGDrugDetail(recordsArr)
+            recordsArr.clear()
+            recordCount = 0
+        else:
+            recordCount += 1
+    if recordsArr:
+            pymoops.insertOneMGDrugDetail(recordsArr)
+            recordsArr.clear()

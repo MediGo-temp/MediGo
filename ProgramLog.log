@@ -998,3 +998,261 @@ MONGO-DB 2024-12-17 09:25:43,410 - INFO - Scraping page 14 for alphabet 'a'.
 MONGO-DB 2024-12-17 09:25:43,410 - INFO - Fetching records from URL: https://www.1mg.com/drugs-all-medicines?page=14
 MONGO-DB 2024-12-17 09:25:53,408 - INFO - Starting to insert URL and page count data into MongoDB.
 MONGO-DB 2024-12-17 09:25:53,413 - INFO - Inserted record [{'name': 'Zypsin-D 50mg/50000IU Tablet', 'url': 'https://www.1mg.com/drugs/zypsin-d-50mg-50000iu-tablet-413983', 'imageurl': 'https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hx2gxivwmeoxxxsc1hix.png', '_id': ObjectId('6760f649a0225cde35a1e951')}]
+MONGO-DB 2024-12-17 14:20:51,859 - INFO - Script started.
+MONGO-DB 2024-12-17 14:20:51,869 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-17 14:20:51,870 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-17 14:20:51,900 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+MONGO-DB 2024-12-17 14:20:52,802 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-40-injection-227647', 'Actorise 40 Injection', 'Actorise40Injection']
+MONGO-DB 2024-12-17 14:20:53,669 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-25-injection-228329', 'Actorise 25 Injection', 'Actorise25Injection']
+MONGO-DB 2024-12-17 14:20:54,395 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-60-injection-403206', 'Actorise 60 Injection', 'Actorise60Injection']
+MONGO-DB 2024-12-17 14:20:56,396 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-80-capsule-682932', 'Azel 80 Capsule', 'Azel80Capsule']
+MONGO-DB 2024-12-17 14:20:57,478 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-400mg-injection-341311', 'Avastin 400mg Injection', 'Avastin400mgInjection']
+MONGO-DB 2024-12-17 14:20:58,431 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-40mg-capsule-429353', 'Azel 40mg Capsule', 'Azel40mgCapsule']
+MONGO-DB 2024-12-17 14:20:59,244 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-200-injection-342162', 'Actorise 200 Injection', 'Actorise200Injection']
+MONGO-DB 2024-12-17 14:21:00,043 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-100-injection-369472', 'Actorise 100 Injection', 'Actorise100Injection']
+MONGO-DB 2024-12-17 14:21:00,924 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azacytin-injection-341892', 'Azacytin Injection', 'AzacytinInjection']
+MONGO-DB 2024-12-17 14:21:02,004 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alecensa-150mg-capsule-831757', 'Alecensa 150mg Capsule', 'Alecensa150mgCapsule']
+MONGO-DB 2024-12-17 14:21:02,945 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aromasin-25mg-tablet-767498', 'Aromasin 25mg Tablet', 'Aromasin25mgTablet']
+MONGO-DB 2024-12-17 14:21:03,618 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/augmentin-625-duo-tablet-138629', 'Augmentin 625 Duo Tablet', 'Augmentin625DuoTablet']
+MONGO-DB 2024-12-17 14:21:04,479 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-ls-syrup-63412', 'Ascoril LS Syrup', 'AscorilLSSyrup']
+MONGO-DB 2024-12-17 14:21:05,175 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azithral-500-tablet-325616', 'Azithral 500 Tablet', 'Azithral500Tablet']
+MONGO-DB 2024-12-17 14:21:06,055 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/amoxyclav-625-tablet-491614', 'Amoxyclav 625 Tablet', 'Amoxyclav625Tablet']
+MONGO-DB 2024-12-17 14:21:06,888 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-120mg-tablet-68763', 'Allegra 120mg Tablet', 'Allegra120mgTablet']
+MONGO-DB 2024-12-17 14:21:07,658 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aricep-5-tablet-5606', 'Aricep 5 Tablet', 'Aricep5Tablet']
+MONGO-DB 2024-12-17 14:21:08,511 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avil-25-tablet-69629', 'Avil 25 Tablet', 'Avil25Tablet']
+MONGO-DB 2024-12-17 14:21:09,393 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aciloc-150-tablet-134660', 'Aciloc 150 Tablet', 'Aciloc150Tablet']
+MONGO-DB 2024-12-17 14:21:11,071 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alex-syrup-63175', 'Alex Syrup', 'AlexSyrup']
+MONGO-DB 2024-12-17 14:21:11,955 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-d-plus-syrup-sugar-free-184611', 'Ascoril D Plus Syrup Sugar Free', 'AscorilDPlusSyrupSugarFree']
+MONGO-DB 2024-12-17 14:21:13,209 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azee-500-tablet-324155', 'Azee 500 Tablet', 'Azee500Tablet']
+MONGO-DB 2024-12-17 14:21:24,368 - INFO - Script started.
+MONGO-DB 2024-12-17 14:21:24,369 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-17 14:21:24,369 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-17 14:21:24,375 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+MONGO-DB 2024-12-17 14:21:24,953 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-40-injection-227647', 'Actorise 40 Injection', 'Actorise40Injection']
+MONGO-DB 2024-12-17 14:21:25,325 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-25-injection-228329', 'Actorise 25 Injection', 'Actorise25Injection']
+MONGO-DB 2024-12-17 14:21:25,693 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-60-injection-403206', 'Actorise 60 Injection', 'Actorise60Injection']
+MONGO-DB 2024-12-17 14:21:26,076 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-80-capsule-682932', 'Azel 80 Capsule', 'Azel80Capsule']
+MONGO-DB 2024-12-17 14:21:26,478 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-400mg-injection-341311', 'Avastin 400mg Injection', 'Avastin400mgInjection']
+MONGO-DB 2024-12-17 14:21:26,837 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-40mg-capsule-429353', 'Azel 40mg Capsule', 'Azel40mgCapsule']
+MONGO-DB 2024-12-17 14:21:27,197 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-200-injection-342162', 'Actorise 200 Injection', 'Actorise200Injection']
+MONGO-DB 2024-12-17 14:21:27,548 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-100-injection-369472', 'Actorise 100 Injection', 'Actorise100Injection']
+MONGO-DB 2024-12-17 14:21:27,937 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azacytin-injection-341892', 'Azacytin Injection', 'AzacytinInjection']
+MONGO-DB 2024-12-17 14:21:28,323 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alecensa-150mg-capsule-831757', 'Alecensa 150mg Capsule', 'Alecensa150mgCapsule']
+MONGO-DB 2024-12-17 14:21:28,730 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aromasin-25mg-tablet-767498', 'Aromasin 25mg Tablet', 'Aromasin25mgTablet']
+MONGO-DB 2024-12-17 14:21:29,122 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/augmentin-625-duo-tablet-138629', 'Augmentin 625 Duo Tablet', 'Augmentin625DuoTablet']
+MONGO-DB 2024-12-17 14:21:29,588 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-ls-syrup-63412', 'Ascoril LS Syrup', 'AscorilLSSyrup']
+MONGO-DB 2024-12-17 14:21:29,968 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azithral-500-tablet-325616', 'Azithral 500 Tablet', 'Azithral500Tablet']
+MONGO-DB 2024-12-17 14:21:30,397 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/amoxyclav-625-tablet-491614', 'Amoxyclav 625 Tablet', 'Amoxyclav625Tablet']
+MONGO-DB 2024-12-17 14:21:30,809 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-120mg-tablet-68763', 'Allegra 120mg Tablet', 'Allegra120mgTablet']
+MONGO-DB 2024-12-17 14:21:31,286 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aricep-5-tablet-5606', 'Aricep 5 Tablet', 'Aricep5Tablet']
+MONGO-DB 2024-12-17 14:21:32,236 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avil-25-tablet-69629', 'Avil 25 Tablet', 'Avil25Tablet']
+MONGO-DB 2024-12-17 14:21:32,636 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aciloc-150-tablet-134660', 'Aciloc 150 Tablet', 'Aciloc150Tablet']
+MONGO-DB 2024-12-17 14:21:33,039 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alex-syrup-63175', 'Alex Syrup', 'AlexSyrup']
+MONGO-DB 2024-12-17 14:21:33,793 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-d-plus-syrup-sugar-free-184611', 'Ascoril D Plus Syrup Sugar Free', 'AscorilDPlusSyrupSugarFree']
+MONGO-DB 2024-12-17 14:21:34,501 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azee-500-tablet-324155', 'Azee 500 Tablet', 'Azee500Tablet']
+MONGO-DB 2024-12-17 14:21:35,063 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-m-tablet-9172', 'Allegra-M Tablet', 'Allegra-MTablet']
+MONGO-DB 2024-12-17 14:21:35,502 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/atarax-25mg-tablet-228160', 'Atarax 25mg Tablet', 'Atarax25mgTablet']
+MONGO-DB 2024-12-17 14:21:36,009 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ativan-1mg-tablet-322827', 'Ativan 1mg Tablet', 'Ativan1mgTablet']
+MONGO-DB 2024-12-17 14:21:36,392 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/augmentin-duo-oral-suspension-324979', 'Augmentin Duo Oral Suspension', 'AugmentinDuoOralSuspension']
+MONGO-DB 2024-12-17 14:21:36,825 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/arkamin-tablet-330260', 'Arkamin Tablet', 'ArkaminTablet']
+MONGO-DB 2024-12-17 14:21:37,246 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/armotraz-tablet-45480', 'Armotraz Tablet', 'ArmotrazTablet']
+MONGO-DB 2024-12-17 14:21:37,663 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avomine-tablet-28784', 'Avomine Tablet', 'AvomineTablet']
+MONGO-DB 2024-12-17 14:21:38,057 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/anovate-cream-63345', 'Anovate Cream', 'AnovateCream']
+MONGO-DB 2024-12-17 14:21:38,469 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alkasol-oral-solution-4967', 'Alkasol Oral Solution', 'AlkasolOralSolution']
+MONGO-DB 2024-12-17 14:21:38,871 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-180mg-tablet-9187', 'Allegra 180mg Tablet', 'Allegra180mgTablet']
+MONGO-DB 2024-12-17 14:21:39,247 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/asthalin-syrup-69589', 'Asthalin Syrup', 'AsthalinSyrup']
+MONGO-DB 2024-12-17 14:21:39,736 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/asthakind-dx-syrup-sugar-free-149334', 'Asthakind-DX Syrup Sugar Free', 'Asthakind-DXSyrupSugarFree']
+MONGO-DB 2024-12-17 14:21:40,142 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alprax-0.25-tablet-69430', 'Alprax 0.25 Tablet', 'Alprax0.25Tablet']
+MONGO-DB 2024-12-17 14:21:40,612 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/amlokind-at-tablet-648536', 'Amlokind-AT Tablet', 'Amlokind-ATTablet']
+MONGO-DB 2024-12-17 14:21:41,039 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aldactone-tablet-116839', 'Aldactone Tablet', 'AldactoneTablet']
+MONGO-DB 2024-12-17 14:21:41,460 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/altraday-capsule-sr-63221', 'Altraday Capsule SR', 'AltradayCapsuleSR']
+MONGO-DB 2024-12-17 14:21:41,825 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/althrocin-500-tablet-121422', 'Althrocin 500 Tablet', 'Althrocin500Tablet']
+MONGO-DB 2024-12-17 14:21:42,199 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ativan-2mg-tablet-236513', 'Ativan 2mg Tablet', 'Ativan2mgTablet']
+MONGO-DB 2024-12-17 14:21:42,614 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ambrodil-s-syrup-161343', 'Ambrodil-S Syrup', 'Ambrodil-SSyrup']
+MONGO-DB 2024-12-17 14:21:42,933 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aricep-10-tablet-5608', 'Aricep 10 Tablet', 'Aricep10Tablet']
+MONGO-DB 2024-12-17 14:21:43,322 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aricep-m-tablet-329805', 'Aricep-M  Tablet', 'Aricep-MTablet']
+MONGO-DB 2024-12-17 14:21:43,701 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/asthalin-100mcg-inhaler-141944', 'Asthalin 100mcg Inhaler', 'Asthalin100mcgInhaler']
+MONGO-DB 2024-12-17 14:21:44,087 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/axcer-90mg-tablet-324040', 'Axcer  90mg Tablet', 'Axcer90mgTablet']
+MONGO-DB 2024-12-17 14:21:44,762 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aldigesic-p-100mg-325mg-tablet-542927', 'Aldigesic P 100mg/325mg Tablet', 'AldigesicP100mg/325mgTablet']
+MONGO-DB 2024-12-17 14:21:45,165 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/atarax-syrup-228589', 'Atarax Syrup', 'AtaraxSyrup']
+MONGO-DB 2024-12-17 14:21:45,567 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ab-flo-n-tablet-338468', 'AB-Flo-N Tablet', 'AB-Flo-NTablet']
+MONGO-DB 2024-12-17 14:21:46,006 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/asthakind-expectorant-sugar-free-116925', 'Asthakind Expectorant Sugar Free', 'AsthakindExpectorantSugarFree']
+MONGO-DB 2024-12-17 14:21:46,440 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/augmentin-dds-suspension-63460', 'Augmentin DDS Suspension', 'AugmentinDDSSuspension']
+MONGO-DB 2024-12-17 14:21:46,891 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alex-cough-lozenges-lemon-ginger-144921', 'Alex Cough Lozenges Lemon Ginger', 'AlexCoughLozengesLemonGinger']
+MONGO-DB 2024-12-17 14:21:47,271 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aceclo-plus-tablet-68674', 'Aceclo Plus Tablet', 'AcecloPlusTablet']
+MONGO-DB 2024-12-17 14:21:47,841 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aciloc-rd-20-tablet-643918', 'Aciloc RD 20 Tablet', 'AcilocRD20Tablet']
+MONGO-DB 2024-12-17 14:21:48,170 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/arachitol-6l-injection-323178', 'Arachitol 6L Injection', 'Arachitol6LInjection']
+MONGO-DB 2024-12-17 14:21:49,131 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/autrin-hematinic-capsule-with-cyanocobalamin-iron-folic-acid-63464', 'Autrin Hematinic Capsule with Cyanocobalamin, Iron & Folic Acid', 'AutrinHematinicCapsulewithCyanocobalamin,Iron&FolicAcid']
+MONGO-DB 2024-12-17 14:21:49,558 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ab-phylline-n-tablet-353332', 'AB Phylline N Tablet', 'ABPhyllineNTablet']
+MONGO-DB 2024-12-17 14:21:49,953 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/atarax-10mg-tablet-228392', 'Atarax 10mg Tablet', 'Atarax10mgTablet']
+MONGO-DB 2024-12-17 14:21:51,423 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aldigesic-sp-tablet-146166', 'Aldigesic-SP Tablet', 'Aldigesic-SPTablet']
+MONGO-DB 2024-12-17 14:21:51,817 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/anobliss-cream-145210', 'Anobliss Cream', 'AnoblissCream']
+MONGO-DB 2024-12-17 14:21:52,242 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-ls-junior-syrup-340445', 'Ascoril LS Junior Syrup', 'AscorilLSJuniorSyrup']
+MONGO-DB 2024-12-17 14:22:33,707 - INFO - Script started.
+MONGO-DB 2024-12-17 14:22:33,709 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-17 14:22:33,710 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-17 14:22:33,720 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+MONGO-DB 2024-12-17 14:22:34,486 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-40-injection-227647', 'Actorise 40 Injection', 'Actorise40Injection']
+MONGO-DB 2024-12-17 14:22:35,217 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-25-injection-228329', 'Actorise 25 Injection', 'Actorise25Injection']
+MONGO-DB 2024-12-17 14:22:36,104 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-60-injection-403206', 'Actorise 60 Injection', 'Actorise60Injection']
+MONGO-DB 2024-12-17 14:22:36,996 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-80-capsule-682932', 'Azel 80 Capsule', 'Azel80Capsule']
+MONGO-DB 2024-12-17 14:22:37,742 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-400mg-injection-341311', 'Avastin 400mg Injection', 'Avastin400mgInjection']
+MONGO-DB 2024-12-17 14:22:38,450 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-40mg-capsule-429353', 'Azel 40mg Capsule', 'Azel40mgCapsule']
+MONGO-DB 2024-12-17 14:22:39,173 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-200-injection-342162', 'Actorise 200 Injection', 'Actorise200Injection']
+MONGO-DB 2024-12-17 14:22:39,887 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-100-injection-369472', 'Actorise 100 Injection', 'Actorise100Injection']
+MONGO-DB 2024-12-17 14:22:40,995 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azacytin-injection-341892', 'Azacytin Injection', 'AzacytinInjection']
+MONGO-DB 2024-12-17 14:22:41,625 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alecensa-150mg-capsule-831757', 'Alecensa 150mg Capsule', 'Alecensa150mgCapsule']
+MONGO-DB 2024-12-17 14:22:42,317 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aromasin-25mg-tablet-767498', 'Aromasin 25mg Tablet', 'Aromasin25mgTablet']
+MONGO-DB 2024-12-17 14:22:43,328 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/augmentin-625-duo-tablet-138629', 'Augmentin 625 Duo Tablet', 'Augmentin625DuoTablet']
+MONGO-DB 2024-12-17 14:22:44,365 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-ls-syrup-63412', 'Ascoril LS Syrup', 'AscorilLSSyrup']
+MONGO-DB 2024-12-17 14:22:45,915 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azithral-500-tablet-325616', 'Azithral 500 Tablet', 'Azithral500Tablet']
+MONGO-DB 2024-12-17 14:22:46,727 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/amoxyclav-625-tablet-491614', 'Amoxyclav 625 Tablet', 'Amoxyclav625Tablet']
+MONGO-DB 2024-12-17 14:22:47,914 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-120mg-tablet-68763', 'Allegra 120mg Tablet', 'Allegra120mgTablet']
+MONGO-DB 2024-12-17 14:22:48,658 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aricep-5-tablet-5606', 'Aricep 5 Tablet', 'Aricep5Tablet']
+MONGO-DB 2024-12-17 14:22:50,084 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avil-25-tablet-69629', 'Avil 25 Tablet', 'Avil25Tablet']
+MONGO-DB 2024-12-17 14:22:50,935 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/aciloc-150-tablet-134660', 'Aciloc 150 Tablet', 'Aciloc150Tablet']
+MONGO-DB 2024-12-17 14:22:51,889 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/alex-syrup-63175', 'Alex Syrup', 'AlexSyrup']
+MONGO-DB 2024-12-17 14:22:52,913 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/ascoril-d-plus-syrup-sugar-free-184611', 'Ascoril D Plus Syrup Sugar Free', 'AscorilDPlusSyrupSugarFree']
+MONGO-DB 2024-12-17 14:22:53,828 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azee-500-tablet-324155', 'Azee 500 Tablet', 'Azee500Tablet']
+MONGO-DB 2024-12-17 14:22:54,738 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/allegra-m-tablet-9172', 'Allegra-M Tablet', 'Allegra-MTablet']
+MONGO-DB 2024-12-17 14:25:40,317 - INFO - Script started.
+MONGO-DB 2024-12-17 14:25:40,318 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-17 14:25:40,319 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-17 14:25:40,330 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+MONGO-DB 2024-12-17 14:27:54,111 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-40-injection-227647', 'Actorise 40 Injection', 'Actorise40Injection']
+MONGO-DB 2024-12-17 14:27:56,819 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-25-injection-228329', 'Actorise 25 Injection', 'Actorise25Injection']
+MONGO-DB 2024-12-17 14:27:59,123 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/actorise-60-injection-403206', 'Actorise 60 Injection', 'Actorise60Injection']
+MONGO-DB 2024-12-17 14:28:01,815 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-80-capsule-682932', 'Azel 80 Capsule', 'Azel80Capsule']
+MONGO-DB 2024-12-17 14:28:05,143 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-400mg-injection-341311', 'Avastin 400mg Injection', 'Avastin400mgInjection']
+MONGO-DB 2024-12-17 14:28:07,823 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/azel-40mg-capsule-429353', 'Azel 40mg Capsule', 'Azel40mgCapsule']
+1MG DRUGINFO 2024-12-17 14:51:02,920 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-17 14:51:03,114 - INFO - Found image links on the page
+1MG DRUGINFO 2024-12-17 14:51:03,114 - WARNING - Image link does not have a source attribute
+MONGO-DB 2024-12-17 22:38:16,681 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+MONGO-DB 2024-12-17 22:38:17,241 - INFO - Found image links on the page
+MONGO-DB 2024-12-17 22:38:17,242 - WARNING - Image link does not have a source attribute
+MONGO-DB 2024-12-17 22:38:17,243 - INFO - Script started.
+MONGO-DB 2024-12-17 22:38:17,243 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-17 22:38:17,243 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-17 22:38:17,253 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+1MG DRUGINFO 2024-12-17 22:39:00,361 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-17 22:39:00,537 - INFO - Found image links on the page
+1MG DRUGINFO 2024-12-17 22:39:00,537 - WARNING - Image link does not have a source attribute
+1MG DRUGINFO 2024-12-17 22:40:39,584 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-17 22:40:40,735 - INFO - Found image links on the page
+1MG DRUGINFO 2024-12-17 22:40:40,736 - WARNING - Image link does not have a source attribute
+1MG DRUGINFO 2024-12-17 22:41:29,293 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-17 22:45:31,985 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:11:28,997 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:22:31,983 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:22:32,484 - WARNING - No images to download for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:38:53,743 - ERROR - Failed to fetch page content from https://www.1mg.com/drugs/vasograin-tablet-116573: BrowserType.launch: Executable doesn't exist at C:\Users\Code3\AppData\Local\ms-playwright\chromium_headless_shell-1148\chrome-win\headless_shell.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+1MG DRUGINFO 2024-12-18 21:38:53,750 - WARNING - No content to parse for image links
+1MG DRUGINFO 2024-12-18 21:38:53,750 - WARNING - No images to download for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:40:16,748 - ERROR - Failed to fetch page content from https://www.1mg.com/drugs/vasograin-tablet-116573: BrowserType.launch: Executable doesn't exist at C:\Users\Code3\AppData\Local\ms-playwright\chromium_headless_shell-1148\chrome-win\headless_shell.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+1MG DRUGINFO 2024-12-18 21:40:16,750 - WARNING - No content to parse for image links
+1MG DRUGINFO 2024-12-18 21:40:16,750 - WARNING - No images to download for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:40:38,139 - ERROR - Failed to fetch page content from https://www.1mg.com/drugs/vasograin-tablet-116573: BrowserType.launch: Executable doesn't exist at C:\Users\Code3\AppData\Local\ms-playwright\chromium_headless_shell-1148\chrome-win\headless_shell.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+1MG DRUGINFO 2024-12-18 21:40:38,139 - WARNING - No content to parse for image links
+1MG DRUGINFO 2024-12-18 21:40:38,139 - WARNING - No images to download for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:41:00,958 - ERROR - Failed to fetch page content from https://www.1mg.com/drugs/vasograin-tablet-116573: BrowserType.launch: Executable doesn't exist at C:\Users\Code3\AppData\Local\ms-playwright\chromium_headless_shell-1148\chrome-win\headless_shell.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+MONGO-DB 2024-12-18 21:45:08,319 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+MONGO-DB 2024-12-18 21:45:09,311 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+MONGO-DB 2024-12-18 21:45:09,311 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+MONGO-DB 2024-12-18 21:45:09,312 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+MONGO-DB 2024-12-18 21:45:09,315 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/8dbae337d9c04182b0b1f837aa024831.jpg
+MONGO-DB 2024-12-18 21:45:09,316 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/89dea82ff4b6401cab1ba659209a0e88.jpg
+MONGO-DB 2024-12-18 21:45:09,316 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/zt5mms9yofqd14tilb9o.jpg
+MONGO-DB 2024-12-18 21:45:09,317 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ef46068adc3c4561a390f285020499cf.jpg
+MONGO-DB 2024-12-18 21:45:09,318 - INFO - Found 7 image link(s) for drug: Vasograin
+MONGO-DB 2024-12-18 21:45:09,698 - INFO - Image successfully downloaded: downloads\vasograin_0.jpg
+MONGO-DB 2024-12-18 21:45:09,852 - INFO - Image successfully downloaded: downloads\vasograin_1.jpg
+MONGO-DB 2024-12-18 21:45:09,994 - INFO - Image successfully downloaded: downloads\vasograin_2.jpg
+MONGO-DB 2024-12-18 21:45:10,279 - INFO - Image successfully downloaded: downloads\vasograin_3.jpg
+MONGO-DB 2024-12-18 21:45:10,412 - INFO - Image successfully downloaded: downloads\vasograin_4.jpg
+MONGO-DB 2024-12-18 21:45:10,535 - INFO - Image successfully downloaded: downloads\vasograin_5.jpg
+MONGO-DB 2024-12-18 21:45:10,670 - INFO - Image successfully downloaded: downloads\vasograin_6.jpg
+MONGO-DB 2024-12-18 21:45:10,672 - INFO - Script started.
+MONGO-DB 2024-12-18 21:45:10,672 - INFO - Started Collecting 1Mg Medicines from page.
+MONGO-DB 2024-12-18 21:45:10,673 - INFO - Connected to MongoDB and starting to fetch drug links.
+MONGO-DB 2024-12-18 21:45:10,689 - INFO - Fetched pageInfo ['https://www.1mg.com/drugs/avastin-100mg-injection-135666', 'Avastin 100mg Injection', 'Avastin100mgInjection']
+1MG DRUGINFO 2024-12-18 21:45:40,820 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:45:42,197 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,197 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,198 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,200 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/8dbae337d9c04182b0b1f837aa024831.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,201 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/89dea82ff4b6401cab1ba659209a0e88.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,202 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/zt5mms9yofqd14tilb9o.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,202 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ef46068adc3c4561a390f285020499cf.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,203 - INFO - Found 7 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:45:42,711 - INFO - Image successfully downloaded: downloads\vasograin_0.jpg
+1MG DRUGINFO 2024-12-18 21:45:42,956 - INFO - Image successfully downloaded: downloads\vasograin_1.jpg
+1MG DRUGINFO 2024-12-18 21:45:43,099 - INFO - Image successfully downloaded: downloads\vasograin_2.jpg
+1MG DRUGINFO 2024-12-18 21:45:43,228 - INFO - Image successfully downloaded: downloads\vasograin_3.jpg
+1MG DRUGINFO 2024-12-18 21:45:43,414 - INFO - Image successfully downloaded: downloads\vasograin_4.jpg
+1MG DRUGINFO 2024-12-18 21:45:43,542 - INFO - Image successfully downloaded: downloads\vasograin_5.jpg
+1MG DRUGINFO 2024-12-18 21:45:43,676 - INFO - Image successfully downloaded: downloads\vasograin_6.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,466 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:47:35,793 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,794 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,794 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,795 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/8dbae337d9c04182b0b1f837aa024831.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,795 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/89dea82ff4b6401cab1ba659209a0e88.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,795 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/zt5mms9yofqd14tilb9o.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,795 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ef46068adc3c4561a390f285020499cf.jpg
+1MG DRUGINFO 2024-12-18 21:47:35,796 - INFO - Found 7 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:47:35,925 - INFO - Image successfully downloaded: downloads\vasograin_0.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,056 - INFO - Image successfully downloaded: downloads\vasograin_1.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,166 - INFO - Image successfully downloaded: downloads\vasograin_2.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,271 - INFO - Image successfully downloaded: downloads\vasograin_3.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,385 - INFO - Image successfully downloaded: downloads\vasograin_4.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,484 - INFO - Image successfully downloaded: downloads\vasograin_5.jpg
+1MG DRUGINFO 2024-12-18 21:47:36,596 - INFO - Image successfully downloaded: downloads\vasograin_6.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,269 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-18 21:48:57,709 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,709 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,709 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,710 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/8dbae337d9c04182b0b1f837aa024831.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,710 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/89dea82ff4b6401cab1ba659209a0e88.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,710 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/zt5mms9yofqd14tilb9o.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,711 - INFO - Found image source: https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ef46068adc3c4561a390f285020499cf.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,711 - INFO - Found 7 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-18 21:48:57,836 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-18 21:48:57,945 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-18 21:48:58,079 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-18 21:48:58,183 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_3.jpg
+1MG DRUGINFO 2024-12-18 21:48:58,295 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_4.jpg
+1MG DRUGINFO 2024-12-18 21:48:58,410 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_5.jpg
+1MG DRUGINFO 2024-12-18 21:48:58,542 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_6.jpg

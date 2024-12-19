@@ -149,4 +149,31 @@ def insertAllPageMedicFrom1MG(pageData1Mg):
                 
         logging.info(f"Inserted record {pageData1Mg}")
     except Exception as e:
-        logging.error(f"An error occurred: {e}") 
+        logging.error(f"An error occurred: {e}")         
+        
+def get1MgDrugLink():
+    try:
+        collection = db['Original1MgLinks']
+
+        logging.info("Connected to MongoDB and starting to fetch drug links.")
+        cursor = collection.find({}, {"_id": 0, "name": 1, "url": 2,"imageurl": 3})
+
+        for record in cursor:
+            pageInfo = [record['url'].strip(),record['name'],str(record['name']).replace(" ","")] 
+            logging.info(f"Fetched pageInfo {pageInfo}")
+            yield pageInfo
+    except Exception as e:
+        logging.error(f"Error occurred while fetching drug names from MongoDB: {e}")
+        raise
+
+def insertOneMGDrugDetail(recordArr):
+    try:
+        collection = db['OneMgDrugData'] 
+        
+        logging.info("Starting to insert URL and page count data into MongoDB.")
+        
+        collection.insert_many(recordArr,bypass_document_validation = True)
+                
+        logging.info(f"Inserted record {recordArr}")
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")   
