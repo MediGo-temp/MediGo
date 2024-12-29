@@ -1256,3 +1256,59 @@ MONGO-DB 2024-12-18 21:45:10,689 - INFO - Fetched pageInfo ['https://www.1mg.com
 1MG DRUGINFO 2024-12-18 21:48:58,295 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_4.jpg
 1MG DRUGINFO 2024-12-18 21:48:58,410 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_5.jpg
 1MG DRUGINFO 2024-12-18 21:48:58,542 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_6.jpg
+1MG DRUGINFO 2024-12-23 21:28:04,239 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-23 21:28:04,939 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-23 21:28:04,939 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-23 21:28:04,940 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-23 21:28:04,940 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-23 21:28:05,259 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-23 21:28:05,378 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-23 21:28:05,524 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-23 21:39:45,696 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-23 21:39:46,227 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,227 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,228 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,228 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-23 21:39:46,465 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,593 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,721 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-23 21:39:46,766 - INFO - No prescription required for the drug
+1MG DRUGINFO 2024-12-23 21:39:46,767 - INFO - Prescription requirement extracted: False
+1MG DRUGINFO 2024-12-23 21:40:54,270 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-23 21:40:54,900 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-23 21:40:54,900 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-23 21:40:54,901 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-23 21:40:54,901 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-23 21:40:55,035 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-23 21:40:55,149 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-23 21:40:55,275 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-23 21:40:55,326 - INFO - No prescription required for the drugNone
+1MG DRUGINFO 2024-12-23 21:40:55,326 - INFO - Prescription requirement extracted: False
+1MG DRUGINFO 2024-12-23 21:42:39,757 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-23 21:42:41,009 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-23 21:42:41,010 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-23 21:42:41,010 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-23 21:42:41,010 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-23 21:42:41,443 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-23 21:42:41,580 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-23 21:42:41,703 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-23 21:51:35,475 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-23 21:51:35,938 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-23 21:51:35,938 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-23 21:51:35,939 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-23 21:51:35,939 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-23 21:51:36,125 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-23 21:51:36,244 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-23 21:51:36,419 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-23 21:51:36,456 - INFO - Prescription required for the drug
+1MG DRUGINFO 2024-12-23 21:51:36,456 - INFO - Prescription requirement extracted: True
+1MG DRUGINFO 2024-12-24 13:03:13,780 - INFO - Request sent to https://www.1mg.com/drugs/vasograin-tablet-116573
+1MG DRUGINFO 2024-12-24 13:03:14,864 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/g9hz2j099roflqfi5tyh.jpg
+1MG DRUGINFO 2024-12-24 13:03:14,865 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ehthuhkfrn7mis6jt4br.jpg
+1MG DRUGINFO 2024-12-24 13:03:14,865 - INFO - Found image source: https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/gpzy98g8xdscectj9juv.jpg
+1MG DRUGINFO 2024-12-24 13:03:14,865 - INFO - Found 3 image link(s) for drug: Vasograin
+1MG DRUGINFO 2024-12-24 13:03:15,287 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_0.jpg
+1MG DRUGINFO 2024-12-24 13:03:15,435 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_1.jpg
+1MG DRUGINFO 2024-12-24 13:03:15,593 - INFO - Image successfully downloaded: MediGo/MedicDB/Crawlers/MedicImages\vasograin_2.jpg
+1MG DRUGINFO 2024-12-24 13:03:22,719 - INFO - Prescription required for the drug
+1MG DRUGINFO 2024-12-24 13:03:22,720 - INFO - Prescription requirement extracted: True

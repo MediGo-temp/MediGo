@@ -49,17 +49,17 @@ def extract_image_links(page_soup):
         logging.warning('No content to parse for image links')
         return []
 
-    image_elements = page_soup.find_all(class_='card-slide')
+    image_elements = page_soup.find(class_='slick-list')
     if not image_elements:
         logging.warning('No image links found on the page')
         return []
 
     image_links = []
-    for image_group in image_elements:
-        for image in image_group.find_all('img'):
-            if image.has_attr('src'):
-                image_links.append(image['src'])
-                logging.info('Found image source: %s', image['src'])
+
+    for image in image_elements.find_all('img'):
+        if image.has_attr('src'):
+            image_links.append(image['src'])
+            logging.info('Found image source: %s', image['src'])
 
     return image_links
 
@@ -93,6 +93,23 @@ def download_image(url, save_path="MediGo/MedicDB/Crawlers/MedicImages", file_na
         logging.error('Failed to download image from %s: %s', url, e)
         return None
 
+def extract_prescription_data(page_soup):
+    try:
+        prescription_element = page_soup.find(class_='drug_prescription')
+        if prescription_element and prescription_element.next.string == "Prescription Required":
+            logging.info('Prescription required for the drug')
+            return True
+        else:
+            logging.info(f'No prescription required for the drug')
+            return False
+    except Exception as e:
+        logging.error('Failed to extract prescription data: %s', e)
+        return None
+
+def extractMarketerAndSaltComposition(pageSoup):
+    marketSaltInfoSoup = pageSoup.find_all(class_='DrugHeader__meta___B3BcU')
+    print(marketSaltInfoSoup)
+
 def get_drug_data(drug_link, drug_name, drug_code_name):
     """
     Fetches drug data from the given link, extracts image links, and downloads them.
@@ -111,7 +128,10 @@ def get_drug_data(drug_link, drug_name, drug_code_name):
             download_image(image_link, save_path="MediGo/MedicDB/Crawlers/MedicImages", file_name=f"{drug_code_name}_{i}.jpg")
     else:
         logging.warning('No images to download for drug: %s', drug_name)
-
-# Example usage
+    
+    isPrescriptionReq = extract_prescription_data(page_soup)
+    logging.info('Prescription requirement extracted: %s', isPrescriptionReq)
+    
+    marketerAndSalt = extractMarketerAndSaltComposition(page_soup)
 
 get_drug_data('https://www.1mg.com/drugs/vasograin-tablet-116573', 'Vasograin', 'vasograin')
